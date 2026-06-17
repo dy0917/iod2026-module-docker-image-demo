@@ -1,0 +1,26 @@
+{
+  "name": "iod2026-module-docker-image-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy0917/iod2026-module-docker-image-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dy0917/iod2026-module-docker-image-demo/issues"
+  },
+  "homepage": "https://github.com/dy0917/iod2026-module-docker-image-demo#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
