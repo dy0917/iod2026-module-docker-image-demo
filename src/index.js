@@ -4,7 +4,7 @@ const app = express();
 const port = 8080;
 
 app.get("/", (req, res) => {
-  res.send(`Hello World with GitAction! ${process.env.ENV}`);
+  res.send(`Hello World with GitAction! demo ${process.env.ENV}`);
 });
 
 app.listen(port, () => {
